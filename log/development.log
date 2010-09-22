@@ -261,3 +261,32 @@ Processing SessionsController#new (for 127.0.0.1 at 2010-09-20 21:19:30) [GET]
 Rendering template within layouts/application
 Rendering sessions/new
 Completed in 17ms (View: 12, DB: 0) | 200 OK [http://yafamily.com/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-09-22 06:29:07) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 101ms (View: 98, DB: 0) | 200 OK [http://yafamily.com/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-09-22 06:36:57) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://yafamily.com/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-09-22 21:20:33) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 34ms (View: 31, DB: 0) | 200 OK [http://yafamily.com/]
+
+
+Processing FacebookSessionsController#show (for 127.0.0.1 at 2010-09-22 21:20:53) [GET]
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://yafamily.com/facebook_session]
+
+
+Processing FacebookSessionsController#create (for 127.0.0.1 at 2010-09-22 21:20:55) [POST]
+  Parameters: {"authenticity_token"=>"4B39wf23PMTCqBGsVo1bN+rzu+eP9DfDpUHylbOsdho="}
+Rendering template within layouts/application
+Rendering facebook_sessions/create
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://yafamily.com/facebook_session]

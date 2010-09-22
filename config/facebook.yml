@@ -1,0 +1,8 @@
+development:
+  app_id: '131914773522760'
+  api_key: '06b2bde2e87896d88e522a7e4a0fd0e3'
+  secret_key: '6b97fa90ad1f9bdfb83ad5472d527200'
+production:
+  app_id: '131914773522760'
+  api_key: '06b2bde2e87896d88e522a7e4a0fd0e3'
+  secret_key: '6b97fa90ad1f9bdfb83ad5472d527200'

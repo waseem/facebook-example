@@ -7,4 +7,19 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
+  #
+
+  helper_method :facebook_client
+  before_filter :set_facebook_client
+
+  def set_facebook_client
+    oauth = Koala::Facebook::OAuth.new("#{request.scheme}://#{request.host}/")
+    @facebook_client ||= if facebook_cookies = oauth.get_user_info_from_cookie(cookies)
+                           Koala::Facebook::GraphAndRestAPI.new(facebook_cookies['access_token'])
+                         end
+  end
+
+  def facebook_client
+    @facebook_client
+  end
 end

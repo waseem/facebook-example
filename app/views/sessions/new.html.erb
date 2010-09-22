@@ -1,3 +1,7 @@
+<form id="connect_to_facebook_form" method="post" action="/facebook_session">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>" />
+</form>
+
 <div>
   <span id="fb_login_button">
     <fb:login-button js="jquery" onlogin="fb.signinFbUser()">Sign In with Facebook</fb:login-button>
