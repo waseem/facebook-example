@@ -1,0 +1,6 @@
+development:
+  public_host_username: staging
+  public_host: staging
+  public_port: 9000
+  local_port: 3000
+  server_alive_interval: 0
