@@ -1,0 +1,12 @@
+<div>
+  <%= link_to("Sign Out", session_path, { :method => :delete, :id => 'signout' }) %> |
+  <%= link_to("Friends", facebook_friends_path) %>
+</div>
+
+<div>
+  <ol>
+    <% @albums.each do |album| %>
+      <li><%= link_to("#{album.name}", facebook_album_path(album.id)) %></li>
+    <% end %>
+  </ol>
+</div>

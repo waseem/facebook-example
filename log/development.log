@@ -520,3 +520,967 @@ Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 20:55:19) [POS
 Rendering template within layouts/application
 Rendering sessions/create
 Completed in 11ms (View: 6, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-09-23 21:13:18) [DELETE]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Redirected to http://yafamily.com:9000/
+Completed in 5ms (DB: 0) | 302 Found [http://yafamily.com/session]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-09-23 21:13:20) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://yafamily.com/]
+
+
+Processing SessionsController#show (for 127.0.0.1 at 2010-09-23 21:13:48) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 21:13:49) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+
+NameError (undefined local variable or method `facebook_session' for #<SessionsController:0xb66d2570>):
+  app/controllers/sessions_controller.rb:19:in `create'
+
+Rendered rescues/_trace (51.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 21:14:07) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+{"name"=>"Phuddu Bandar", "timezone"=>5.5, "gender"=>"male", "id"=>"100000654222309", "last_name"=>"Bandar", "updated_time"=>"2010-01-10T16:35:06+0000", "verified"=>true, "locale"=>"en_US", "link"=>"http://www.facebook.com/profile.php?id=100000654222309", "education"=>[{"school"=>{"name"=>"Kendriya Vidyalaya Gole Market", "id"=>"106555369381663"}}], "first_name"=>"Phuddu"}
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 2123ms (View: 10, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 21:16:35) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+{"name"=>"Phuddu Bandar", "timezone"=>5.5, "gender"=>"male", "id"=>"100000654222309", "last_name"=>"Bandar", "updated_time"=>"2010-01-10T16:35:06+0000", "verified"=>true, "locale"=>"en_US", "link"=>"http://www.facebook.com/profile.php?id=100000654222309", "education"=>[{"school"=>{"name"=>"Kendriya Vidyalaya Gole Market", "id"=>"106555369381663"}}], "first_name"=>"Phuddu"}
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 2354ms (View: 7, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 21:34:22) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+<#Joey::User about=nil about_me=nil activities=nil bio=nil birthday=nil birthday_date=nil books=nil email=nil first_name="Phuddu" gender="male" id="100000654222309" interested_in=nil interests=nil is_app_user=nil is_blocked=nil last_name="Bandar" link="http://www.facebook.com/profile.php?id=100000654222309" locale="en_US" meeting_for=nil meeting_sex=nil middle_name=nil movies=nil music=nil name="Phuddu Bandar" notes_count=nil pic=nil pic_big=nil pic_big_with_logo=nil pic_small=nil pic_small_with_logo=nil pic_square=nil pic_square_with_logo=nil pic_with_logo=nil picture=nil political=nil profile_blurb=nil profile_update_time=nil profile_url=nil quotes=nil relationship_status=nil religion=nil sex=nil significant_other_id=nil timezone=5.5 tv=nil uid=nil updated_time="2010-01-10T16:35:06+0000" username=nil verified=true wall_count=nil website=nil>
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 2122ms (View: 18, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-09-23 21:34:35) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://yafamily.com/]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 21:35:43) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+nil
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 2164ms (View: 7, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 21:45:14) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 3882ms (View: 8, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#show (for 127.0.0.1 at 2010-09-23 21:45:29) [GET]
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#show (for 127.0.0.1 at 2010-09-23 21:45:53) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 21:46:11) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+<#Joey::User about=nil about_me=nil activities=nil bio=nil birthday=nil birthday_date=nil books=nil email=nil first_name=nil gender=nil id=100000654222309 interested_in=nil interests=nil is_app_user=nil is_blocked=nil last_name=nil link=nil locale=nil meeting_for=nil meeting_sex=nil middle_name=nil movies=nil music=nil name="Phuddu Bandar" notes_count=nil pic=nil pic_big=nil pic_big_with_logo=nil pic_small=nil pic_small_with_logo=nil pic_square="http://profile.ak.fbcdn.net/profile-ak-snc4/v22940/765/82/q100000654222309_9590.jpg" pic_square_with_logo=nil pic_with_logo=nil picture=nil political=nil profile_blurb=nil profile_update_time=nil profile_url=nil quotes=nil relationship_status=nil religion=nil sex=nil significant_other_id=nil timezone=nil tv=nil uid=100000654222309 updated_time=nil username=nil verified=nil wall_count=nil website=nil>
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 3799ms (View: 2, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#show (for 127.0.0.1 at 2010-09-23 21:46:22) [GET]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 21:46:43) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+<#Joey::User about=nil about_me=nil activities=nil bio=nil birthday=nil birthday_date=nil books=nil email=nil first_name=nil gender=nil id=100000654222309 interested_in=nil interests=nil is_app_user=nil is_blocked=nil last_name=nil link=nil locale=nil meeting_for=nil meeting_sex=nil middle_name=nil movies=nil music=nil name="Phuddu Bandar" notes_count=nil pic=nil pic_big=nil pic_big_with_logo=nil pic_small=nil pic_small_with_logo=nil pic_square="http://profile.ak.fbcdn.net/profile-ak-snc4/v22940/765/82/q100000654222309_9590.jpg" pic_square_with_logo=nil pic_with_logo=nil picture=nil political=nil profile_blurb=nil profile_update_time=nil profile_url=nil quotes=nil relationship_status=nil religion=nil sex=nil significant_other_id=nil timezone=nil tv=nil uid=100000654222309 updated_time=nil username=nil verified=nil wall_count=nil website=nil>
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 3787ms (View: 8, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 21:47:16) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+<#Joey::User about=nil about_me=nil activities=nil bio=nil birthday=nil birthday_date=nil books=nil email=nil first_name=nil gender=nil id=100000654222309 interested_in=nil interests=nil is_app_user=nil is_blocked=nil last_name=nil link=nil locale=nil meeting_for=nil meeting_sex=nil middle_name=nil movies=nil music=nil name="Phuddu Bandar" notes_count=nil pic=nil pic_big="http://profile.ak.fbcdn.net/profile-ak-snc4/v22940/765/82/n100000654222309_9590.jpg" pic_big_with_logo=nil pic_small=nil pic_small_with_logo=nil pic_square=nil pic_square_with_logo=nil pic_with_logo=nil picture=nil political=nil profile_blurb=nil profile_update_time=nil profile_url=nil quotes=nil relationship_status=nil religion=nil sex=nil significant_other_id=nil timezone=nil tv=nil uid=100000654222309 updated_time=nil username=nil verified=nil wall_count=nil website=nil>
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 3892ms (View: 9, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 22:27:01) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+<#Joey::User about=nil about_me=nil activities=nil bio=nil birthday=nil birthday_date=nil books=nil email=nil first_name=nil gender=nil id=100000654222309 interested_in=nil interests=nil is_app_user=nil is_blocked=nil last_name=nil link=nil locale=nil meeting_for=nil meeting_sex=nil middle_name=nil movies=nil music=nil name="Phuddu Bandar" notes_count=nil pic=nil pic_big="http://profile.ak.fbcdn.net/profile-ak-snc4/v22940/765/82/n100000654222309_9590.jpg" pic_big_with_logo=nil pic_small=nil pic_small_with_logo=nil pic_square=nil pic_square_with_logo=nil pic_with_logo=nil picture=nil political=nil profile_blurb=nil profile_update_time=nil profile_url=nil quotes=nil relationship_status=nil religion=nil sex=nil significant_other_id=nil timezone=nil tv=nil uid=100000654222309 updated_time=nil username=nil verified=nil wall_count=nil website=nil>
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 3762ms (View: 18, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing FacebookFriendsController#index (for 127.0.0.1 at 2010-09-23 22:27:14) [GET]
+<#Joey::User about=nil about_me=nil activities=nil bio=nil birthday=nil birthday_date=nil books=nil email=nil first_name=nil gender=nil id="627694525" interested_in=nil interests=nil is_app_user=nil is_blocked=nil last_name=nil link=nil locale=nil meeting_for=nil meeting_sex=nil middle_name=nil movies=nil music=nil name="Bharat Verma" notes_count=nil pic=nil pic_big=nil pic_big_with_logo=nil pic_small=nil pic_small_with_logo=nil pic_square=nil pic_square_with_logo=nil pic_with_logo=nil picture=nil political=nil profile_blurb=nil profile_update_time=nil profile_url=nil quotes=nil relationship_status=nil religion=nil sex=nil significant_other_id=nil timezone=nil tv=nil uid=nil updated_time=nil username=nil verified=nil wall_count=nil website=nil>
+Rendering template within layouts/application
+Rendering facebook_friends/index
+Completed in 3237ms (View: 7, DB: 0) | 200 OK [http://yafamily.com/facebook_friends]
+
+
+Processing FacebookFriendsController#index (for 127.0.0.1 at 2010-09-23 22:29:28) [GET]
+<#Joey::User about=nil about_me=nil activities=nil bio=nil birthday=nil birthday_date=nil books=nil email=nil first_name=nil gender=nil id="627694525" interested_in=nil interests=nil is_app_user=nil is_blocked=nil last_name=nil link=nil locale=nil meeting_for=nil meeting_sex=nil middle_name=nil movies=nil music=nil name="Bharat Verma" notes_count=nil pic=nil pic_big=nil pic_big_with_logo=nil pic_small=nil pic_small_with_logo=nil pic_square=nil pic_square_with_logo=nil pic_with_logo=nil picture=nil political=nil profile_blurb=nil profile_update_time=nil profile_url=nil quotes=nil relationship_status=nil religion=nil sex=nil significant_other_id=nil timezone=nil tv=nil uid=nil updated_time=nil username=nil verified=nil wall_count=nil website=nil>
+Rendering template within layouts/application
+Rendering facebook_friends/index
+Completed in 3198ms (View: 13, DB: 0) | 200 OK [http://yafamily.com/facebook_friends]
+
+
+Processing FacebookFriendsController#index (for 127.0.0.1 at 2010-09-23 22:29:48) [GET]
+<#Joey::User about=nil about_me=nil activities=nil bio=nil birthday=nil birthday_date=nil books=nil email=nil first_name=nil gender=nil id="627694525" interested_in=nil interests=nil is_app_user=nil is_blocked=nil last_name=nil link=nil locale=nil meeting_for=nil meeting_sex=nil middle_name=nil movies=nil music=nil name="Bharat Verma" notes_count=nil pic=nil pic_big=nil pic_big_with_logo=nil pic_small=nil pic_small_with_logo=nil pic_square=nil pic_square_with_logo=nil pic_with_logo=nil picture=nil political=nil profile_blurb=nil profile_update_time=nil profile_url=nil quotes=nil relationship_status=nil religion=nil sex=nil significant_other_id=nil timezone=nil tv=nil uid=nil updated_time=nil username=nil verified=nil wall_count=nil website=nil>
+Rendering template within layouts/application
+Rendering facebook_friends/index
+Completed in 3148ms (View: 13, DB: 0) | 200 OK [http://yafamily.com/facebook_friends]
+
+
+Processing FacebookFriendsController#index (for 127.0.0.1 at 2010-09-23 22:29:59) [GET]
+<#Joey::User about=nil about_me=nil activities=nil bio=nil birthday=nil birthday_date=nil books=nil email=nil first_name=nil gender=nil id="627694525" interested_in=nil interests=nil is_app_user=nil is_blocked=nil last_name=nil link=nil locale=nil meeting_for=nil meeting_sex=nil middle_name=nil movies=nil music=nil name="Bharat Verma" notes_count=nil pic=nil pic_big=nil pic_big_with_logo=nil pic_small=nil pic_small_with_logo=nil pic_square=nil pic_square_with_logo=nil pic_with_logo=nil picture=nil political=nil profile_blurb=nil profile_update_time=nil profile_url=nil quotes=nil relationship_status=nil religion=nil sex=nil significant_other_id=nil timezone=nil tv=nil uid=nil updated_time=nil username=nil verified=nil wall_count=nil website=nil>
+Rendering template within layouts/application
+Rendering facebook_friends/index
+Completed in 3088ms (View: 13, DB: 0) | 200 OK [http://yafamily.com/facebook_friends]
+
+
+Processing FacebookFriendsController#index (for 127.0.0.1 at 2010-09-23 22:32:18) [GET]
+<#Joey::User about=nil about_me=nil activities=nil bio=nil birthday=nil birthday_date=nil books=nil email=nil first_name=nil gender=nil id="627694525" interested_in=nil interests=nil is_app_user=nil is_blocked=nil last_name=nil link=nil locale=nil meeting_for=nil meeting_sex=nil middle_name=nil movies=nil music=nil name="Bharat Verma" notes_count=nil pic=nil pic_big=nil pic_big_with_logo=nil pic_small=nil pic_small_with_logo=nil pic_square=nil pic_square_with_logo=nil pic_with_logo=nil picture=nil political=nil profile_blurb=nil profile_update_time=nil profile_url=nil quotes=nil relationship_status=nil religion=nil sex=nil significant_other_id=nil timezone=nil tv=nil uid=nil updated_time=nil username=nil verified=nil wall_count=nil website=nil>
+Rendering template within layouts/application
+Rendering facebook_friends/index
+ERROR: compiling _run_erb_app47views47facebook_friends47index46html46erb RAISED compile error
+/home/waseem/Repositories/MyRails/awesome/app/views/facebook_friends/index.html.erb:3: syntax error, unexpected ';', expecting ')'
+... facebook_albums_path ).to_s); @output_buffer.concat "\n</di...
+                              ^
+Function body:           def _run_erb_app47views47facebook_friends47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div>\n  "
+; @output_buffer.concat(( link_to("Sign Out", session_path, { :method => :delete, :id => 'signout' }) ).to_s); @output_buffer.concat " |\n  "
+; @output_buffer.concat(( link_to("Albums", facebook_albums_path ).to_s); @output_buffer.concat "\n</div>\n<div>\n  <ol>\n    "
+
+
+
+;  @friends.each do |friend| ; @output_buffer.concat "\n      <li>"
+; @output_buffer.concat(( friend.name ).to_s); @output_buffer.concat " ("; @output_buffer.concat(( friend.id ).to_s); @output_buffer.concat ")</li>\n    "
+;  end ; @output_buffer.concat "\n  <ol>\n</div>\n"
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/waseem/Repositories/MyRails/awesome/app/views/facebook_friends/index.html.erb:15:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:343:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:947:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `custom'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `each'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/home/waseem/Repositories/MyRails/awesome/app/controllers/facebook_friends_controller.rb:6:in `index'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/home/waseem/Repositories/MyRails/awesome/app/views/facebook_friends/index.html.erb:3: syntax error, unexpected ';', expecting ')'
+... facebook_albums_path ).to_s); @output_buffer.concat "\n</di...
+                              ^) on line #3 of app/views/facebook_friends/index.html.erb:
+1: <div>
+2:   <%= link_to("Sign Out", session_path, { :method => :delete, :id => 'signout' }) %> |
+3:   <%= link_to("Albums", facebook_albums_path %>
+4: </div>
+5: <div>
+6:   <ol>
+
+    app/views/facebook_friends/index.html.erb:15:in `compile!'
+    app/controllers/facebook_friends_controller.rb:6:in `index'
+
+Rendered rescues/_trace (57.0ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FacebookFriendsController#index (for 127.0.0.1 at 2010-09-23 22:42:32) [GET]
+Rendering template within layouts/application
+Rendering facebook_friends/index
+ERROR: compiling _run_erb_app47views47facebook_friends47index46html46erb RAISED compile error
+/home/waseem/Repositories/MyRails/awesome/app/views/facebook_friends/index.html.erb:3: syntax error, unexpected ';', expecting ')'
+... facebook_albums_path ).to_s); @output_buffer.concat "\n</di...
+                              ^
+Function body:           def _run_erb_app47views47facebook_friends47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div>\n  "
+; @output_buffer.concat(( link_to("Sign Out", session_path, { :method => :delete, :id => 'signout' }) ).to_s); @output_buffer.concat " |\n  "
+; @output_buffer.concat(( link_to("Albums", facebook_albums_path ).to_s); @output_buffer.concat "\n</div>\n<div>\n  <ol>\n    "
+
+
+
+;  @friends.each do |friend| ; @output_buffer.concat "\n      <li>"
+; @output_buffer.concat(( friend.name ).to_s); @output_buffer.concat " ("; @output_buffer.concat(( friend.id ).to_s); @output_buffer.concat ")</li>\n    "
+;  end ; @output_buffer.concat "\n  <ol>\n</div>\n"
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/waseem/Repositories/MyRails/awesome/app/views/facebook_friends/index.html.erb:15:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:343:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:947:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `custom'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `each'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/home/waseem/Repositories/MyRails/awesome/app/controllers/facebook_friends_controller.rb:5:in `index'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/home/waseem/Repositories/MyRails/awesome/app/views/facebook_friends/index.html.erb:3: syntax error, unexpected ';', expecting ')'
+... facebook_albums_path ).to_s); @output_buffer.concat "\n</di...
+                              ^) on line #3 of app/views/facebook_friends/index.html.erb:
+1: <div>
+2:   <%= link_to("Sign Out", session_path, { :method => :delete, :id => 'signout' }) %> |
+3:   <%= link_to("Albums", facebook_albums_path %>
+4: </div>
+5: <div>
+6:   <ol>
+
+    app/views/facebook_friends/index.html.erb:15:in `compile!'
+    app/controllers/facebook_friends_controller.rb:5:in `index'
+
+Rendered rescues/_trace (56.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FacebookFriendsController#index (for 127.0.0.1 at 2010-09-23 22:42:54) [GET]
+Rendering template within layouts/application
+Rendering facebook_friends/index
+ERROR: compiling _run_erb_app47views47facebook_friends47index46html46erb RAISED compile error
+/home/waseem/Repositories/MyRails/awesome/app/views/facebook_friends/index.html.erb:3: syntax error, unexpected ';', expecting ')'
+... facebook_albums_path ).to_s); @output_buffer.concat "\n</di...
+                              ^
+Function body:           def _run_erb_app47views47facebook_friends47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div>\n  "
+; @output_buffer.concat(( link_to("Sign Out", session_path, { :method => :delete, :id => 'signout' }) ).to_s); @output_buffer.concat " |\n  "
+; @output_buffer.concat(( link_to("Albums", facebook_albums_path ).to_s); @output_buffer.concat "\n</div>\n<div>\n  <ol>\n    "
+
+
+
+;  @friends.each do |friend| ; @output_buffer.concat "\n      <li>"
+; @output_buffer.concat(( friend.name ).to_s); @output_buffer.concat " ("; @output_buffer.concat(( friend.id ).to_s); @output_buffer.concat ")</li>\n    "
+;  end ; @output_buffer.concat "\n  <ol>\n</div>\n"
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/waseem/Repositories/MyRails/awesome/app/views/facebook_friends/index.html.erb:15:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:343:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:947:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `custom'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `each'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/home/waseem/Repositories/MyRails/awesome/app/controllers/facebook_friends_controller.rb:5:in `index'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/home/waseem/Repositories/MyRails/awesome/app/views/facebook_friends/index.html.erb:3: syntax error, unexpected ';', expecting ')'
+... facebook_albums_path ).to_s); @output_buffer.concat "\n</di...
+                              ^) on line #3 of app/views/facebook_friends/index.html.erb:
+1: <div>
+2:   <%= link_to("Sign Out", session_path, { :method => :delete, :id => 'signout' }) %> |
+3:   <%= link_to("Albums", facebook_albums_path %>
+4: </div>
+5: <div>
+6:   <ol>
+
+    app/views/facebook_friends/index.html.erb:15:in `compile!'
+    app/controllers/facebook_friends_controller.rb:5:in `index'
+
+Rendered rescues/_trace (54.9ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FacebookFriendsController#index (for 127.0.0.1 at 2010-09-23 22:43:29) [GET]
+Rendering template within layouts/application
+Rendering facebook_friends/index
+Completed in 6661ms (View: 15, DB: 0) | 200 OK [http://yafamily.com/facebook_friends]
+
+
+Processing FacebookAlbumsController#index (for 127.0.0.1 at 2010-09-23 22:44:01) [GET]
+[]
+Rendering template within layouts/application
+Rendering facebook_albums/index
+Completed in 2410ms (View: 10, DB: 0) | 200 OK [http://yafamily.com/facebook_albums]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-09-23 22:47:46) [DELETE]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Redirected to http://yafamily.com:9000/
+Completed in 5ms (DB: 0) | 302 Found [http://yafamily.com/session]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-09-23 22:47:47) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://yafamily.com/]
+
+
+Processing SessionsController#show (for 127.0.0.1 at 2010-09-23 22:48:54) [GET]
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 22:48:56) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+<#Joey::User about=nil about_me=nil activities=nil bio=nil birthday=nil birthday_date=nil books=nil email=nil first_name=nil gender=nil id=100000654222309 interested_in=nil interests=nil is_app_user=nil is_blocked=nil last_name=nil link=nil locale=nil meeting_for=nil meeting_sex=nil middle_name=nil movies=nil music=nil name="Phuddu Bandar" notes_count=nil pic=nil pic_big="http://profile.ak.fbcdn.net/profile-ak-snc4/v22940/765/82/n100000654222309_9590.jpg" pic_big_with_logo=nil pic_small=nil pic_small_with_logo=nil pic_square=nil pic_square_with_logo=nil pic_with_logo=nil picture=nil political=nil profile_blurb=nil profile_update_time=nil profile_url=nil quotes=nil relationship_status=nil religion=nil sex=nil significant_other_id=nil timezone=nil tv=nil uid=100000654222309 updated_time=nil username=nil verified=nil wall_count=nil website=nil>
+Rendering template within layouts/application
+Rendering sessions/create
+ERROR: compiling _run_erb_app47views47sessions47create46html46erb RAISED compile error
+/home/waseem/Repositories/MyRails/awesome/app/views/sessions/create.html.erb:4: syntax error, unexpected ';', expecting ')'
+... facebook_albums_path ).to_s); @output_buffer.concat "\n</di...
+                              ^
+Function body:           def _run_erb_app47views47sessions47create46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div>\n  "
+; @output_buffer.concat(( link_to("Sign Out", session_path, { :method => :delete, :id => 'signout' }) ).to_s); @output_buffer.concat " |\n  "
+; @output_buffer.concat(( link_to("Friends", facebook_friends_path) ).to_s); @output_buffer.concat " |\n  "
+; @output_buffer.concat(( link_to("Albums", facebook_albums_path ).to_s); @output_buffer.concat "\n</div>\n<div>\n  <img src=\""
+
+
+; @output_buffer.concat(( @me.pic_big ).to_s); @output_buffer.concat "\" />\n  Hi "
+; @output_buffer.concat(( @me.name ).to_s); @output_buffer.concat " you are now connected with Facebook.\n<div>\n"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/waseem/Repositories/MyRails/awesome/app/views/sessions/create.html.erb:13:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:343:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:947:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `custom'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `each'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/home/waseem/Repositories/MyRails/awesome/app/controllers/sessions_controller.rb:21:in `create'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/home/waseem/Repositories/MyRails/awesome/app/views/sessions/create.html.erb:4: syntax error, unexpected ';', expecting ')'
+... facebook_albums_path ).to_s); @output_buffer.concat "\n</di...
+                              ^) on line #4 of app/views/sessions/create.html.erb:
+1: <div>
+2:   <%= link_to("Sign Out", session_path, { :method => :delete, :id => 'signout' }) %> |
+3:   <%= link_to("Friends", facebook_friends_path) %> |
+4:   <%= link_to("Albums", facebook_albums_path %>
+5: </div>
+6: <div>
+7:   <img src="<%= @me.pic_big %>" />
+
+    app/views/sessions/create.html.erb:13:in `compile!'
+    app/controllers/sessions_controller.rb:21:in `create'
+
+Rendered rescues/_trace (81.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 22:49:21) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+<#Joey::User about=nil about_me=nil activities=nil bio=nil birthday=nil birthday_date=nil books=nil email=nil first_name=nil gender=nil id=100000654222309 interested_in=nil interests=nil is_app_user=nil is_blocked=nil last_name=nil link=nil locale=nil meeting_for=nil meeting_sex=nil middle_name=nil movies=nil music=nil name="Phuddu Bandar" notes_count=nil pic=nil pic_big="http://profile.ak.fbcdn.net/profile-ak-snc4/v22940/765/82/n100000654222309_9590.jpg" pic_big_with_logo=nil pic_small=nil pic_small_with_logo=nil pic_square=nil pic_square_with_logo=nil pic_with_logo=nil picture=nil political=nil profile_blurb=nil profile_update_time=nil profile_url=nil quotes=nil relationship_status=nil religion=nil sex=nil significant_other_id=nil timezone=nil tv=nil uid=100000654222309 updated_time=nil username=nil verified=nil wall_count=nil website=nil>
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 3784ms (View: 7, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing FacebookAlbumsController#index (for 127.0.0.1 at 2010-09-23 22:49:35) [GET]
+
+NoMethodError (undefined method `type=' for #<Joey::Album:0xb654598c>):
+  hashie (0.2.1) lib/hashie/dash.rb:82:in `send'
+  hashie (0.2.1) lib/hashie/dash.rb:82:in `initialize'
+  hashie (0.2.1) lib/hashie/dash.rb:81:in `each_pair'
+  hashie (0.2.1) lib/hashie/dash.rb:81:in `initialize'
+  app/controllers/facebook_albums_controller.rb:3:in `index'
+
+Rendered rescues/_trace (166.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FacebookAlbumsController#index (for 127.0.0.1 at 2010-09-23 22:52:34) [GET]
+[<#Joey::Album count=7 created_time="2010-09-18T02:32:15+0000" description=nil id="151741674857639" link="http://www.facebook.com/album.php?aid=22359&id=100000654222309" location="World around" name="So long and thanks for all the fish" privacy="everyone" updated_time="2010-09-18T02:33:26+0000">, <#Joey::Album count=3 created_time="2010-09-04T09:03:10+0000" description="A random album" id="148239815207825" link="http://www.facebook.com/album.php?aid=21478&id=100000654222309" location="Earth" name="My Album" privacy="everyone" updated_time="2010-09-04T09:23:16+0000">, <#Joey::Album count=3 created_time="2010-07-02T11:24:53+0000" description="he he he :D" id="132393680125772" link="http://www.facebook.com/album.php?aid=15837&id=100000654222309" location="Earth" name="Some more weird stuff" privacy="everyone" updated_time="2010-07-02T11:26:36+0000">, <#Joey::Album count=1 created_time="2010-06-22T11:09:27+0000" description=nil id="129805343717939" link="http://www.facebook.com/album.php?aid=15167&id=100000654222309" location=nil name="Wall Photos" privacy="everyone" updated_time="2010-08-19T14:35:48+0000">, <#Joey::Album count=6 created_time="2010-01-28T16:18:57+0000" description="No. No. No way. I am not going to write some description here. This work should go to MM. :P" id="101905239841283" link="http://www.facebook.com/album.php?aid=4587&id=100000654222309" location="an utterly insignificant little blue-green planet " name="Some Extremely Weird Stuff" privacy="custom" updated_time="2010-02-25T05:53:34+0000">, <#Joey::Album count=4 created_time="2010-01-28T16:15:02+0000" description=nil id="101905099841297" link="http://www.facebook.com/album.php?aid=4586&id=100000654222309" location="Far out in the uncharted backwaters of the unfashionable end of the Western Spiral arm of the Galaxy" name="Some Weird Stuff" privacy="everyone" updated_time="2010-07-02T11:18:03+0000">, <#Joey::Album count=1 created_time="2010-01-10T16:30:24+0000" description=nil id="100000654222309" link="http://www.facebook.com/album.php?aid=-3&id=100000654222309" location=nil name="Profile Pictures" privacy="everyone" updated_time="2010-01-10T16:30:24+0000">]
+Rendering template within layouts/application
+Rendering facebook_albums/index
+Completed in 3397ms (View: 90, DB: 0) | 200 OK [http://yafamily.com/facebook_albums]
+
+
+Processing FacebookAlbumsController#index (for 127.0.0.1 at 2010-09-23 23:00:09) [GET]
+Rendering template within layouts/application
+Rendering facebook_albums/index
+ERROR: compiling _run_erb_app47views47facebook_albums47index46html46erb RAISED compile error
+/home/waseem/Repositories/MyRails/awesome/app/views/facebook_albums/index.html.erb:7: syntax error, unexpected ';', expecting ')'
+...ok_albums_path(album) ).to_s); @output_buffer.concat "</li>\...
+                              ^
+Function body:           def _run_erb_app47views47facebook_albums47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div>\n  "
+; @output_buffer.concat(( link_to("Sign Out", session_path, { :method => :delete, :id => 'signout' }) ).to_s); @output_buffer.concat " |\n  "
+; @output_buffer.concat(( link_to("Friends", facebook_friends_path) ).to_s); @output_buffer.concat "\n\n  <ol>\n    "
+
+
+;  @albums.each do |album| ; @output_buffer.concat "\n      <li>"
+; @output_buffer.concat(( link_to("#{album.name}", facbook_albums_path(album) ).to_s); @output_buffer.concat "</li>\n    "
+;  end ; @output_buffer.concat "\n  </ol>\n</div>\n"
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/waseem/Repositories/MyRails/awesome/app/views/facebook_albums/index.html.erb:14:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:343:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:947:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `custom'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `each'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/home/waseem/Repositories/MyRails/awesome/app/controllers/facebook_albums_controller.rb:5:in `index'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/home/waseem/Repositories/MyRails/awesome/app/views/facebook_albums/index.html.erb:7: syntax error, unexpected ';', expecting ')'
+...ok_albums_path(album) ).to_s); @output_buffer.concat "</li>\...
+                              ^) on line #7 of app/views/facebook_albums/index.html.erb:
+4: 
+5:   <ol>
+6:     <% @albums.each do |album| %>
+7:       <li><%= link_to("#{album.name}", facbook_albums_path(album) %></li>
+8:     <% end %>
+9:   </ol>
+10: </div>
+
+    app/views/facebook_albums/index.html.erb:14:in `compile!'
+    app/controllers/facebook_albums_controller.rb:5:in `index'
+
+Rendered rescues/_trace (61.4ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FacebookAlbumsController#index (for 127.0.0.1 at 2010-09-23 23:00:29) [GET]
+Rendering template within layouts/application
+Rendering facebook_albums/index
+
+ActionView::TemplateError (undefined method `facbook_albums_path' for #<ActionView::Base:0xb626b89c>) on line #7 of app/views/facebook_albums/index.html.erb:
+4: 
+5:   <ol>
+6:     <% @albums.each do |album| %>
+7:       <li><%= link_to("#{album.name}", facbook_albums_path(album)) %></li>
+8:     <% end %>
+9:   </ol>
+10: </div>
+
+    app/views/facebook_albums/index.html.erb:7
+    app/views/facebook_albums/index.html.erb:6:in `each'
+    app/views/facebook_albums/index.html.erb:6
+    app/controllers/facebook_albums_controller.rb:5:in `index'
+
+Rendered rescues/_trace (53.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FacebookAlbumsController#index (for 127.0.0.1 at 2010-09-23 23:01:44) [GET]
+Rendering template within layouts/application
+Rendering facebook_albums/index
+
+ActionView::TemplateError (undefined method `facbook_album_path' for #<ActionView::Base:0xb62c043c>) on line #7 of app/views/facebook_albums/index.html.erb:
+4: 
+5:   <ol>
+6:     <% @albums.each do |album| %>
+7:       <li><%= link_to("#{album.name}", facbook_album_path(album)) %></li>
+8:     <% end %>
+9:   </ol>
+10: </div>
+
+    app/views/facebook_albums/index.html.erb:7
+    app/views/facebook_albums/index.html.erb:6:in `each'
+    app/views/facebook_albums/index.html.erb:6
+    app/controllers/facebook_albums_controller.rb:5:in `index'
+
+Rendered rescues/_trace (59.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FacebookAlbumsController#index (for 127.0.0.1 at 2010-09-23 23:02:13) [GET]
+Rendering template within layouts/application
+Rendering facebook_albums/index
+Completed in 3108ms (View: 10, DB: 0) | 200 OK [http://yafamily.com/facebook_albums]
+
+
+Processing FacebookAlbumsController#show (for 127.0.0.1 at 2010-09-23 23:04:15) [GET]
+  Parameters: {"name"=>"So long and thanks for all the fish", "location"=>"World around", "id"=>"151741674857639", "count"=>"7", "created_time"=>"2010-09-18T02:32:15+0000", "link"=>"http://www.facebook.com/album.php?aid=22359&id=100000654222309", "privacy"=>"everyone", "updated_time"=>"2010-09-18T02:33:26+0000"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.get_and_map):
+  app/controllers/facebook_albums_controller.rb:11:in `show'
+
+Rendered rescues/_trace (79.4ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FacebookAlbumsController#index (for 127.0.0.1 at 2010-09-23 23:06:35) [GET]
+Rendering template within layouts/application
+Rendering facebook_albums/index
+Completed in 3084ms (View: 7, DB: 0) | 200 OK [http://yafamily.com/facebook_albums]
+
+
+Processing FacebookAlbumsController#show (for 127.0.0.1 at 2010-09-23 23:07:22) [GET]
+  Parameters: {"id"=>"151741674857639"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.get_and_map):
+  app/controllers/facebook_albums_controller.rb:11:in `show'
+
+Rendered rescues/_trace (132.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FacebookAlbumsController#index (for 127.0.0.1 at 2010-09-23 23:09:03) [GET]
+Rendering template within layouts/application
+Rendering facebook_albums/index
+Completed in 2992ms (View: 3, DB: 0) | 200 OK [http://yafamily.com/facebook_albums]
+
+
+Processing FacebookAlbumsController#show (for 127.0.0.1 at 2010-09-23 23:09:43) [GET]
+  Parameters: {"id"=>"151741674857639"}
+[<#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=720 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741984857608" link="http://www.facebook.com/photo.php?pid=306787&id=100000654222309" name="I want to see this circus" picture="http://photos-c.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741984857608_100000654222309_306787_1739540_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741984857608_100000654222309_306787_1739540_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=563>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=400 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741988190941" link="http://www.facebook.com/photo.php?pid=306788&id=100000654222309" name="Aaaaaaaahhhh Nostalgia.....just kidding" picture="http://photos-d.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741988190941_100000654222309_306788_7718686_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741988190941_100000654222309_306788_7718686_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=400>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=319 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741981524275" link="http://www.facebook.com/photo.php?pid=306786&id=100000654222309" name="O RLY? ಠ_ಠ" picture="http://photos-e.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741981524275_100000654222309_306786_6790362_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741981524275_100000654222309_306786_6790362_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=500>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=700 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741978190942" link="http://www.facebook.com/photo.php?pid=306785&id=100000654222309" name="Ctrl-v Ctrl-v Ctrl-v Ctrl-v" picture="http://photos-g.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741978190942_100000654222309_306785_590478_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741978190942_100000654222309_306785_590478_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=465>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=445 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741971524276" link="http://www.facebook.com/photo.php?pid=306783&id=100000654222309" name="No I dont want to." picture="http://photos-d.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741971524276_100000654222309_306783_6735300_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741971524276_100000654222309_306783_6735300_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=345>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=548 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741974857609" link="http://www.facebook.com/photo.php?pid=306784&id=100000654222309" name="He he.." picture="http://photos-a.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741974857609_100000654222309_306784_2769131_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741974857609_100000654222309_306784_2769131_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=450>, <#Joey::Photo created_time="2010-09-18T02:33:18+0000" height=265 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741941524279" link="http://www.facebook.com/photo.php?pid=306782&id=100000654222309" name="Where art thou?" picture="http://photos-f.ak.fbcdn.net/hphotos-ak-snc4/hs675.snc4/61528_151741941524279_100000654222309_306782_1698585_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs675.snc4/61528_151741941524279_100000654222309_306782_1698585_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=500>]
+Rendering template within layouts/application
+Rendering facebook_albums/show
+Completed in 3057ms (View: 5, DB: 0) | 200 OK [http://yafamily.com/facebook_albums/151741674857639]
+
+
+Processing FacebookAlbumsController#show (for 127.0.0.1 at 2010-09-23 23:11:01) [GET]
+  Parameters: {"id"=>"151741674857639"}
+[<#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=720 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741984857608" link="http://www.facebook.com/photo.php?pid=306787&id=100000654222309" name="I want to see this circus" picture="http://photos-c.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741984857608_100000654222309_306787_1739540_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741984857608_100000654222309_306787_1739540_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=563>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=400 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741988190941" link="http://www.facebook.com/photo.php?pid=306788&id=100000654222309" name="Aaaaaaaahhhh Nostalgia.....just kidding" picture="http://photos-d.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741988190941_100000654222309_306788_7718686_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741988190941_100000654222309_306788_7718686_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=400>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=319 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741981524275" link="http://www.facebook.com/photo.php?pid=306786&id=100000654222309" name="O RLY? ಠ_ಠ" picture="http://photos-e.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741981524275_100000654222309_306786_6790362_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741981524275_100000654222309_306786_6790362_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=500>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=700 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741978190942" link="http://www.facebook.com/photo.php?pid=306785&id=100000654222309" name="Ctrl-v Ctrl-v Ctrl-v Ctrl-v" picture="http://photos-g.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741978190942_100000654222309_306785_590478_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741978190942_100000654222309_306785_590478_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=465>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=445 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741971524276" link="http://www.facebook.com/photo.php?pid=306783&id=100000654222309" name="No I dont want to." picture="http://photos-d.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741971524276_100000654222309_306783_6735300_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741971524276_100000654222309_306783_6735300_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=345>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=548 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741974857609" link="http://www.facebook.com/photo.php?pid=306784&id=100000654222309" name="He he.." picture="http://photos-a.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741974857609_100000654222309_306784_2769131_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741974857609_100000654222309_306784_2769131_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=450>, <#Joey::Photo created_time="2010-09-18T02:33:18+0000" height=265 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741941524279" link="http://www.facebook.com/photo.php?pid=306782&id=100000654222309" name="Where art thou?" picture="http://photos-f.ak.fbcdn.net/hphotos-ak-snc4/hs675.snc4/61528_151741941524279_100000654222309_306782_1698585_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs675.snc4/61528_151741941524279_100000654222309_306782_1698585_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=500>]
+Rendering template within layouts/application
+Rendering facebook_albums/show
+Completed in 3232ms (View: 4, DB: 0) | 200 OK [http://yafamily.com/facebook_albums/151741674857639]
+
+
+Processing FacebookAlbumsController#show (for 127.0.0.1 at 2010-09-23 23:15:51) [GET]
+  Parameters: {"id"=>"151741674857639"}
+[<#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=720 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741984857608" link="http://www.facebook.com/photo.php?pid=306787&id=100000654222309" name="I want to see this circus" picture="http://photos-c.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741984857608_100000654222309_306787_1739540_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741984857608_100000654222309_306787_1739540_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=563>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=400 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741988190941" link="http://www.facebook.com/photo.php?pid=306788&id=100000654222309" name="Aaaaaaaahhhh Nostalgia.....just kidding" picture="http://photos-d.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741988190941_100000654222309_306788_7718686_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741988190941_100000654222309_306788_7718686_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=400>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=319 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741981524275" link="http://www.facebook.com/photo.php?pid=306786&id=100000654222309" name="O RLY? ಠ_ಠ" picture="http://photos-e.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741981524275_100000654222309_306786_6790362_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741981524275_100000654222309_306786_6790362_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=500>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=700 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741978190942" link="http://www.facebook.com/photo.php?pid=306785&id=100000654222309" name="Ctrl-v Ctrl-v Ctrl-v Ctrl-v" picture="http://photos-g.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741978190942_100000654222309_306785_590478_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741978190942_100000654222309_306785_590478_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=465>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=445 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741971524276" link="http://www.facebook.com/photo.php?pid=306783&id=100000654222309" name="No I dont want to." picture="http://photos-d.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741971524276_100000654222309_306783_6735300_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741971524276_100000654222309_306783_6735300_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=345>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=548 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741974857609" link="http://www.facebook.com/photo.php?pid=306784&id=100000654222309" name="He he.." picture="http://photos-a.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741974857609_100000654222309_306784_2769131_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741974857609_100000654222309_306784_2769131_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=450>, <#Joey::Photo created_time="2010-09-18T02:33:18+0000" height=265 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741941524279" link="http://www.facebook.com/photo.php?pid=306782&id=100000654222309" name="Where art thou?" picture="http://photos-f.ak.fbcdn.net/hphotos-ak-snc4/hs675.snc4/61528_151741941524279_100000654222309_306782_1698585_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs675.snc4/61528_151741941524279_100000654222309_306782_1698585_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=500>]
+Rendering template within layouts/application
+Rendering facebook_albums/show
+Completed in 2605ms (View: 5, DB: 0) | 200 OK [http://yafamily.com/facebook_albums/151741674857639]
+
+
+Processing FacebookAlbumsController#show (for 127.0.0.1 at 2010-09-23 23:16:17) [GET]
+  Parameters: {"id"=>"151741674857639"}
+[<#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=720 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741984857608" link="http://www.facebook.com/photo.php?pid=306787&id=100000654222309" name="I want to see this circus" picture="http://photos-c.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741984857608_100000654222309_306787_1739540_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741984857608_100000654222309_306787_1739540_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=563>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=400 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741988190941" link="http://www.facebook.com/photo.php?pid=306788&id=100000654222309" name="Aaaaaaaahhhh Nostalgia.....just kidding" picture="http://photos-d.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741988190941_100000654222309_306788_7718686_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741988190941_100000654222309_306788_7718686_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=400>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=319 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741981524275" link="http://www.facebook.com/photo.php?pid=306786&id=100000654222309" name="O RLY? ಠ_ಠ" picture="http://photos-e.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741981524275_100000654222309_306786_6790362_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741981524275_100000654222309_306786_6790362_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=500>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=700 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741978190942" link="http://www.facebook.com/photo.php?pid=306785&id=100000654222309" name="Ctrl-v Ctrl-v Ctrl-v Ctrl-v" picture="http://photos-g.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741978190942_100000654222309_306785_590478_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs673.snc4/61354_151741978190942_100000654222309_306785_590478_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=465>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=445 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741971524276" link="http://www.facebook.com/photo.php?pid=306783&id=100000654222309" name="No I dont want to." picture="http://photos-d.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741971524276_100000654222309_306783_6735300_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741971524276_100000654222309_306783_6735300_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=345>, <#Joey::Photo created_time="2010-09-18T02:33:26+0000" height=548 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741974857609" link="http://www.facebook.com/photo.php?pid=306784&id=100000654222309" name="He he.." picture="http://photos-a.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741974857609_100000654222309_306784_2769131_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs653.snc4/61354_151741974857609_100000654222309_306784_2769131_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=450>, <#Joey::Photo created_time="2010-09-18T02:33:18+0000" height=265 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="151741941524279" link="http://www.facebook.com/photo.php?pid=306782&id=100000654222309" name="Where art thou?" picture="http://photos-f.ak.fbcdn.net/hphotos-ak-snc4/hs675.snc4/61528_151741941524279_100000654222309_306782_1698585_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs675.snc4/61528_151741941524279_100000654222309_306782_1698585_n.jpg" updated_time="2010-09-18T02:35:43+0000" width=500>]
+Rendering template within layouts/application
+Rendering facebook_albums/show
+Completed in 2892ms (View: 6, DB: 0) | 200 OK [http://yafamily.com/facebook_albums/151741674857639]
+
+
+Processing FacebookAlbumsController#index (for 127.0.0.1 at 2010-09-23 23:17:24) [GET]
+Rendering template within layouts/application
+Rendering facebook_albums/index
+Completed in 2681ms (View: 4, DB: 0) | 200 OK [http://yafamily.com/facebook_albums]
+
+
+Processing FacebookAlbumsController#show (for 127.0.0.1 at 2010-09-23 23:17:32) [GET]
+  Parameters: {"id"=>"101905099841297"}
+[<#Joey::Photo created_time="2010-07-02T11:18:03+0000" height=257 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="132392550125885" link="http://www.facebook.com/photo.php?pid=211485&id=100000654222309" name="Penguin with a moustache." picture="http://photos-d.ak.fbcdn.net/hphotos-ak-snc4/hs151.snc4/36922_132392550125885_100000654222309_211485_1617040_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs151.snc4/36922_132392550125885_100000654222309_211485_1617040_n.jpg" updated_time="2010-07-02T11:19:05+0000" width=320>, <#Joey::Photo created_time="2010-01-28T16:16:02+0000" height=411 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="101905143174626" link="http://www.facebook.com/photo.php?pid=55936&id=100000654222309" name="Chikkuu piikuuu!!" picture="http://photos-g.ak.fbcdn.net/hphotos-ak-snc3/hs127.snc3/17440_101905143174626_100000654222309_55936_4517595_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc3/hs127.snc3/17440_101905143174626_100000654222309_55936_4517595_n.jpg" updated_time="2010-01-28T16:16:57+0000" width=604>, <#Joey::Photo created_time="2010-01-28T16:16:02+0000" height=268 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="101905139841293" link="http://www.facebook.com/photo.php?pid=55935&id=100000654222309" name="Ohh!! Wait!! What!!" picture="http://photos-e.ak.fbcdn.net/hphotos-ak-snc3/hs127.snc3/17440_101905139841293_100000654222309_55935_1353608_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc3/hs127.snc3/17440_101905139841293_100000654222309_55935_1353608_n.jpg" updated_time="2010-01-28T16:16:57+0000" width=439>, <#Joey::Photo created_time="2010-01-28T16:16:02+0000" height=400 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="101905136507960" link="http://www.facebook.com/photo.php?pid=55934&id=100000654222309" name="O RLY?" picture="http://photos-c.ak.fbcdn.net/hphotos-ak-snc3/hs127.snc3/17440_101905136507960_100000654222309_55934_2498903_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc3/hs127.snc3/17440_101905136507960_100000654222309_55934_2498903_n.jpg" updated_time="2010-01-28T16:16:57+0000" width=438>]
+Rendering template within layouts/application
+Rendering facebook_albums/show
+Completed in 3552ms (View: 3, DB: 0) | 200 OK [http://yafamily.com/facebook_albums/101905099841297]
+
+
+Processing FacebookAlbumsController#index (for 127.0.0.1 at 2010-09-23 23:17:47) [GET]
+Rendering template within layouts/application
+Rendering facebook_albums/index
+Completed in 3317ms (View: 4, DB: 0) | 200 OK [http://yafamily.com/facebook_albums]

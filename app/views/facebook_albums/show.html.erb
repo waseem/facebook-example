@@ -3,7 +3,11 @@
   <%= link_to("Friends", facebook_friends_path) %> |
   <%= link_to("Albums", facebook_albums_path) %>
 </div>
+
 <div>
-  <img src="<%= @me.pic_big %>" />
-  Hi <%= @me.name %> you are now connected with Facebook.
-<div>
+  <ul>
+    <% @photos.each do |photo| %>
+      <li><img src="<%= photo.source %>" /> <%= photo.name %></li>
+    <% end %>
+  </ul>
+</div>

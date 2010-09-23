@@ -16,6 +16,8 @@ class SessionsController < ApplicationController
   end
 
   def create
+    @me = facebook_client.me.info([:name, :pic_big])
+    logger.info @me.inspect
     respond_to do |format|
       format.html
     end

@@ -1,9 +1,11 @@
 <div>
   <%= link_to("Sign Out", session_path, { :method => :delete, :id => 'signout' }) %> |
-  <%= link_to("Friends", facebook_friends_path) %> |
   <%= link_to("Albums", facebook_albums_path) %>
 </div>
 <div>
-  <img src="<%= @me.pic_big %>" />
-  Hi <%= @me.name %> you are now connected with Facebook.
-<div>
+  <ol>
+    <% @friends.each do |friend| %>
+      <li><%= friend.name %> (<%= friend.id %>)</li>
+    <% end %>
+  <ol>
+</div>
