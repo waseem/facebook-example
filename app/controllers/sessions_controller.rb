@@ -5,4 +5,25 @@ class SessionsController < ApplicationController
       format.html
     end
   end
+
+  def show
+    connect_status = {}
+    connect_status[:signin_status] = !facebook_client.nil?
+
+    respond_to do |format|
+      format.json { render :json => connect_status.to_json }
+    end
+  end
+
+  def create
+    respond_to do |format|
+      format.html
+    end
+  end
+
+  def destroy
+    respond_to do |format|
+      format.html { redirect_to '/' }
+    end
+  end
 end

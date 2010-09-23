@@ -290,3 +290,233 @@ Processing FacebookSessionsController#create (for 127.0.0.1 at 2010-09-22 21:20:
 Rendering template within layouts/application
 Rendering facebook_sessions/create
 Completed in 7ms (View: 4, DB: 0) | 200 OK [http://yafamily.com/facebook_session]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-09-23 19:34:38) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 143ms (View: 138, DB: 0) | 200 OK [http://yafamily.com/]
+
+
+Processing SessionsController#show (for 127.0.0.1 at 2010-09-23 19:34:49) [GET]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 19:34:51) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 20:43:26) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 20:46:55) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-09-23 20:47:18) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://yafamily.com/]
+
+
+Processing SessionsController#show (for 127.0.0.1 at 2010-09-23 20:48:11) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 20:48:13) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 20:50:47) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Rendering template within layouts/application
+Rendering sessions/create
+ERROR: compiling _run_erb_app47views47sessions47create46html46erb RAISED compile error
+/home/waseem/Repositories/MyRails/awesome/app/views/sessions/create.html.erb:2: syntax error, unexpected ')', expecting tASSOC
+...delete, { :id => 'signout' } ) ).to_s); @output_buffer.conca...
+                              ^
+Function body:           def _run_erb_app47views47sessions47create46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div>\n  "
+; @output_buffer.concat(( link_to("Sign Out", sessions_path, :method => :delete, { :id => 'signout' } ) ).to_s); @output_buffer.concat "\n  <!--<a id=\"signout\" href=\"#\">Sign Out</a>-->\n</div>\n\nYou are now connected to Facebook.\n"
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/waseem/Repositories/MyRails/awesome/app/views/sessions/create.html.erb:10:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:343:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:947:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `custom'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `each'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/home/waseem/Repositories/MyRails/awesome/app/controllers/sessions_controller.rb:19:in `create'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/home/waseem/Repositories/MyRails/awesome/app/views/sessions/create.html.erb:2: syntax error, unexpected ')', expecting tASSOC
+...delete, { :id => 'signout' } ) ).to_s); @output_buffer.conca...
+                              ^) on line #2 of app/views/sessions/create.html.erb:
+1: <div>
+2:   <%= link_to("Sign Out", sessions_path, :method => :delete, { :id => 'signout' } ) %>
+3:   <!--<a id="signout" href="#">Sign Out</a>-->
+4: </div>
+5: 
+
+    app/views/sessions/create.html.erb:10:in `compile!'
+    app/controllers/sessions_controller.rb:19:in `create'
+
+Rendered rescues/_trace (88.3ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 20:51:19) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Rendering template within layouts/application
+Rendering sessions/create
+
+ActionView::TemplateError (undefined local variable or method `sessions_path' for #<ActionView::Base:0xb6528d28>) on line #2 of app/views/sessions/create.html.erb:
+1: <div>
+2:   <%= link_to("Sign Out", sessions_path, :method => :delete) %>
+3:   <!--<a id="signout" href="#">Sign Out</a>-->
+4: </div>
+5: 
+
+    app/views/sessions/create.html.erb:2
+    app/controllers/sessions_controller.rb:19:in `create'
+
+Rendered rescues/_trace (138.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 20:51:28) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 20:53:46) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-09-23 20:54:31) [DELETE]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Redirected to http://yafamily.com:9000/
+Completed in 5ms (DB: 0) | 302 Found [http://yafamily.com/session]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-09-23 20:54:33) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://yafamily.com/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-09-23 20:54:50) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://yafamily.com/]
+
+
+Processing SessionsController#show (for 127.0.0.1 at 2010-09-23 20:55:17) [GET]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-23 20:55:19) [POST]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://yafamily.com/session]

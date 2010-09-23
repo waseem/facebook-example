@@ -1,6 +1,6 @@
 var fb = {
   signinFbUser: function () {
-    $.get('/facebook_session', null, function (connect_status) {
+    $.get('/session', null, function (connect_status) {
       if (connect_status.signin_status) {
         fb.submitConnectForm();
       } else {
@@ -11,5 +11,19 @@ var fb = {
 
   submitConnectForm: function () {
     $('#connect_to_facebook_form').submit();
+  },
+
+  signoutFbUser: function () {
+    $('#signout').click(function () {
+      FB.logout(function (response) {});
+    });
+  },
+
+  preloadActions: function () {
+    fb.signoutFbUser();
   }
 }
+
+$(document).ready(function () {
+  fb.preloadActions();
+});
