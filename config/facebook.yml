@@ -2,7 +2,14 @@ development:
   app_id: '131914773522760'
   api_key: '06b2bde2e87896d88e522a7e4a0fd0e3'
   secret_key: '6b97fa90ad1f9bdfb83ad5472d527200'
+
 production:
   app_id: '131914773522760'
   api_key: '06b2bde2e87896d88e522a7e4a0fd0e3'
   secret_key: '6b97fa90ad1f9bdfb83ad5472d527200'
+
+cucumber:
+  app_id: '131914773522760'
+  api_key: '06b2bde2e87896d88e522a7e4a0fd0e3'
+  secret_key: '6b97fa90ad1f9bdfb83ad5472d527200'
+  phuddu: 'access_token=131914773522760|2.ODW_XpxkIaVkQqzK2FdqXA__.3600.1285340400-100000654222309|qX4CT2fpigesIe7-TEAZ7_kMNQI&expires=1285340400&secret=jb2qywrxELJweXSqEINpgQ__&session_key=2.ODW_XpxkIaVkQqzK2FdqXA__.3600.1285340400-100000654222309&sig=8274463b53f995c7b81a4ec1f475e701&uid=100000654222309'

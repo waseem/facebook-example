@@ -1484,3 +1484,112 @@ Processing FacebookAlbumsController#index (for 127.0.0.1 at 2010-09-23 23:17:47)
 Rendering template within layouts/application
 Rendering facebook_albums/index
 Completed in 3317ms (View: 4, DB: 0) | 200 OK [http://yafamily.com/facebook_albums]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-09-23 23:24:50) [DELETE]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Redirected to http://yafamily.com:9000/
+Completed in 8ms (DB: 0) | 302 Found [http://yafamily.com/session]
+
+
+Processing FacebookAlbumsController#show (for 127.0.0.1 at 2010-09-23 23:24:51) [GET]
+  Parameters: {"id"=>"148239815207825"}
+[<#Joey::Photo created_time="2010-09-04T09:04:06+0000" height=432 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="148239941874479" link="http://www.facebook.com/photo.php?pid=288681&id=100000654222309" name=nil picture="http://photos-h.ak.fbcdn.net/hphotos-ak-ash2/hs155.ash2/41087_148239941874479_100000654222309_288681_5473766_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-ash2/hs155.ash2/41087_148239941874479_100000654222309_288681_5473766_n.jpg" updated_time="2010-09-04T09:04:31+0000" width=309>, <#Joey::Photo created_time="2010-09-04T09:04:06+0000" height=300 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="148239938541146" link="http://www.facebook.com/photo.php?pid=288680&id=100000654222309" name=nil picture="http://photos-b.ak.fbcdn.net/hphotos-ak-snc4/hs315.snc4/41087_148239938541146_100000654222309_288680_3651449_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs315.snc4/41087_148239938541146_100000654222309_288680_3651449_n.jpg" updated_time="2010-09-04T09:04:31+0000" width=300>, <#Joey::Photo created_time="2010-09-04T09:04:02+0000" height=322 icon="http://static.ak.fbcdn.net/rsrc.php/z2E5Y/hash/8as8iqdm.gif" id="148239918541148" link="http://www.facebook.com/photo.php?pid=288679&id=100000654222309" name=nil picture="http://photos-c.ak.fbcdn.net/hphotos-ak-snc4/hs429.snc4/47257_148239918541148_100000654222309_288679_6828745_s.jpg" source="http://sphotos.ak.fbcdn.net/hphotos-ak-snc4/hs429.snc4/47257_148239918541148_100000654222309_288679_6828745_n.jpg" updated_time="2010-09-04T09:04:31+0000" width=382>]
+Rendering template within layouts/application
+Rendering facebook_albums/show
+Completed in 3028ms (View: 3, DB: 0) | 200 OK [http://yafamily.com/facebook_albums/148239815207825]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-09-23 23:25:06) [DELETE]
+  Parameters: {"authenticity_token"=>"b/gdJ3K1OVDtdTNFPW9kxg9RiJb1B1kIdVY3A8cRGIs="}
+Redirected to http://yafamily.com:9000/
+Completed in 5ms (DB: 0) | 302 Found [http://yafamily.com/session]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-09-23 23:25:08) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://yafamily.com/]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (152.5ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (156.8ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (198.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (336.5ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (144.1ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (159.1ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (134.3ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (168.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-09-24 19:15:17) [GET]
+{}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 37ms (View: 34, DB: 0) | 200 OK [http://yafamily.com/]
+
+
+Processing SessionsController#show (for 127.0.0.1 at 2010-09-24 19:15:34) [GET]
+{"_awesome_session"=>"BAh7BzoPc2Vzc2lvbl9pZCIlYWY0NzEzYjcyMjQ2MTM2ZTVlN2JhN2RhOWFmODc0OWQ6EF9jc3JmX3Rva2VuIjFlT2R0QnZsMFJMamtaV1dNT2Q3WGZtUHhHNVJMamYyYW1UaCtqYndtdlE4PQ==--3b04f0c03444f371f7322ad9a66034532010f631", "fbs_131914773522760"=>"\"access_token=131914773522760|2.ODW_XpxkIaVkQqzK2FdqXA__.3600.1285340400-100000654222309|qX4CT2fpigesIe7-TEAZ7_kMNQI&expires=1285340400&secret=jb2qywrxELJweXSqEINpgQ__&session_key=2.ODW_XpxkIaVkQqzK2FdqXA__.3600.1285340400-100000654222309&sig=8274463b53f995c7b81a4ec1f475e701&uid=100000654222309\""}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://yafamily.com/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-09-24 19:15:37) [POST]
+  Parameters: {"authenticity_token"=>"eOdtBvl0RLjkZWWMOd7XfmPxG5RLjf2amTh+jbwmvQ8="}
+{"_awesome_session"=>"BAh7BzoPc2Vzc2lvbl9pZCIlYWY0NzEzYjcyMjQ2MTM2ZTVlN2JhN2RhOWFmODc0OWQ6EF9jc3JmX3Rva2VuIjFlT2R0QnZsMFJMamtaV1dNT2Q3WGZtUHhHNVJMamYyYW1UaCtqYndtdlE4PQ==--3b04f0c03444f371f7322ad9a66034532010f631", "fbs_131914773522760"=>"\"access_token=131914773522760|2.ODW_XpxkIaVkQqzK2FdqXA__.3600.1285340400-100000654222309|qX4CT2fpigesIe7-TEAZ7_kMNQI&expires=1285340400&secret=jb2qywrxELJweXSqEINpgQ__&session_key=2.ODW_XpxkIaVkQqzK2FdqXA__.3600.1285340400-100000654222309&sig=8274463b53f995c7b81a4ec1f475e701&uid=100000654222309\""}
+<#Joey::User about=nil about_me=nil activities=nil bio=nil birthday=nil birthday_date=nil books=nil email=nil first_name=nil gender=nil id=100000654222309 interested_in=nil interests=nil is_app_user=nil is_blocked=nil last_name=nil link=nil locale=nil meeting_for=nil meeting_sex=nil middle_name=nil movies=nil music=nil name="Phuddu Bandar" notes_count=nil pic=nil pic_big="http://profile.ak.fbcdn.net/profile-ak-snc4/v22940/765/82/n100000654222309_9590.jpg" pic_big_with_logo=nil pic_small=nil pic_small_with_logo=nil pic_square=nil pic_square_with_logo=nil pic_with_logo=nil picture=nil political=nil profile_blurb=nil profile_update_time=nil profile_url=nil quotes=nil relationship_status=nil religion=nil sex=nil significant_other_id=nil timezone=nil tv=nil uid=100000654222309 updated_time=nil username=nil verified=nil wall_count=nil website=nil>
+Rendering template within layouts/application
+Rendering sessions/create
+Completed in 3953ms (View: 8, DB: 0) | 200 OK [http://yafamily.com/session]

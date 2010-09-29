@@ -14,6 +14,7 @@ class ApplicationController < ActionController::Base
 
   def set_facebook_client
     oauth = Koala::Facebook::OAuth.new("#{request.scheme}://#{request.host}/")
+    logger.info cookies.inspect
     @facebook_client ||= if facebook_cookies = oauth.get_user_info_from_cookie(cookies)
                            Koala::Facebook::GraphAndRestAPI.new(facebook_cookies['access_token'])
                          end
